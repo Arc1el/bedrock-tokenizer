@@ -31,6 +31,7 @@ cd bedrock-tokenizer
 2. 의존성 설치
 ```bash
 npm install
+pip install -r requirements.txt
 ```
 
 3. 환경 변수 설정
