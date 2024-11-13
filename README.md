@@ -1,6 +1,7 @@
 # Bedrock LLMs 토크나이저 (Counter)
 
 ## 프로젝트 소개
+![image](https://github.com/user-attachments/assets/d65eb24c-9ed7-4255-97f3-09bd0c0acebb)
 Amazon Bedrock의 다양한 LLM(Large Language Model)들의 토큰 수를 계산하고 시각화하는 웹 애플리케이션입니다.
 
 ## 주요 기능
