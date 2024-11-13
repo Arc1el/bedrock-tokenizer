@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1890ff;
+  --background-color: #f5f5f5;
+}
+
+body {
+  background-color: var(--background-color);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.ant-card {
+  background: white;
+  border-radius: 8px;
+}
+
+.ant-select-selector {
+  border-radius: 6px !important;
+}
+
+.ant-btn-primary {
+  background: var(--primary-color);
+  border-radius: 6px;
+}
+
+.ant-input {
+  border-radius: 6px !important;
+}
+
+.token-count {
+  @apply bg-blue-50 p-4 rounded-lg text-center mt-4;
+}
+
+.error-message {
+  @apply bg-red-50 text-red-600 p-4 rounded-lg mt-4;
+}
+
+.visualization-container {
+  @apply bg-white p-4 rounded-lg border border-gray-200;
+}
+
+.token-list {
+  @apply mt-4 pt-4 border-t border-gray-200;
+} 
